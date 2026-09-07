@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Project-specific additions ---
+
+# Redundant/large data (keep only Cleaned Data.csv, drop the xlsx duplicate)
+data/processed/Cleaned_Data.xlsx
+
+# Power BI temp/lock files (keep the .pbix itself — that's a deliverable)
+*.pbix.lock
+~$*.pbix
+
+# OS junk
+.DS_Store
+Thumbs.db
